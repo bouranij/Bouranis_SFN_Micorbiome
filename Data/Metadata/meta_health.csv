@@ -1,0 +1,83 @@
+﻿subject_id,treatment,sex,race,ethnicity,age,height_in,weight_lb,bmi,diet,relation
+BSS001,AL,F,Asian,NHL,55,65,165,27.5,Standard diet,None 
+BSS002,AL,M,White,NHL,23,73,210,28,Standard healthy diet,None 
+BSS003,BL,M,White,NHL,51,72,196,26.9,Omnivore,None 
+BSS004,AU,F,Asian,NHL,27,62,148,27.1,"Heavy carbs, meat eater, supposed to limit dairy, peanuts & tree nuts",None 
+BSS005,BU,F,White,NHL,26,61,115,21.7,Standard healthy diet,None 
+BSS006,BU,F,White,NHL,53,65,130,21.7,N/A,None 
+BSS007,BL,F,White,NHL,42,69,178,26.3,Mostly vegetatian (meat 1x/month),None 
+BSS008,Withdrawl,F,MTOR,NHL,20,62,136,24.9,,None 
+BSS009,BL,F,White,NHL,42,61,121,22.9,N/A,None 
+BSS010,AU,F,White,NHL,31,64,141,24.1,High Dairy,None 
+BSS011,AU,F,White,NHL,21,68.5,141,21.2,Pescetarian,None 
+BSS012,Withdrawl,M,White,NHL,41,72,185,25.1,Gluten Free,None 
+BSS013,BU,F,MTOR,NHL,41,67,176,27.6,Vegetarian,None 
+BSS014,AL,F,White,NHL,40,74,170,21.8,Average meat eater,None 
+BSS015,BL,M,White,NHL,49,75,177,22.1,Standard diet,None 
+BSS016,AL,F,White,NHL,51,66,159,25.7,Vegetarian,None 
+BSS017,BU,M,MTOR,NHL,28,68,149,22.7,Pescatarian ,None 
+BSS018,Never Assigned due to cohort organization,,,,,,,,,None 
+BSS019,Never Assigned due to cohort organization,,,,,,,,,None 
+BSS020,Never Assigned due to cohort organization,,,,,,,,,None 
+BSS021,BU,F,White,NHL,58,63,113,20,Pescatarian,None 
+BSS022,AU,F,White,NHL,23,68,148,22.4,Gluten Free,None 
+BSS023,BL,F,White,NHL,30,67,138,21.6,Low Meat,None 
+BSS024,BU,M,White,NHL,18,72,160,21.4,Standard diet,mother/son relationship BSS025 (mother)
+BSS025,AL,F,White,NHL,47,61,130,24.5,Low Carb,mother/son relationship BSS024 (son)
+BSS026,AU,M,Asian,NHL,30,68,155,23.6,"No coffee, single meal but snacks often",None 
+BSS027,AU,F,White,NHL,26,70,170,24.4,Allergic to pork,None 
+BSS028,AL,M,Decline,NHL,30,70,155.2,22.3,No beef,None 
+BSS029,BL,F,Asian,NHL,27,68,177,26.9,Standard diet,None 
+BSS030,BL,F,Other,HL,25,64,144.6,24.8,"Standard diet, little red meat",None 
+BSS031,Withdrawl,,,,,,,,,None 
+BSS032,BU,F,White,NHL,25,67.5,130,20.1,mostly vegetarian,None 
+BSS033,Withdrawl,,,,,,,,,None 
+BSS034,Withdrawl,,,,,,,,,None 
+BSS035,BL,M,Asian,NHL,28,68,159.6,24.3,"vegetarian, light dinners",None 
+BSS036,BL,F,White,NHL,29,65,167,27.8,omnivore,None 
+BSS037,AU,M,Asian,NHL,34,67.5,180.2,27.8,not a heavy meat eater,None 
+BSS038,AL ,F,White,NHL,32,69,164,24.2,omnivore,None 
+BSS039,BU,F,White,NHL,56,68,165.8,25.2,"standard diet, intermittent fasting for 15-18hrs",None 
+BSS040,BU,F,Decline to state,HL,59,62.5,117.4,21.1,"low carb diet, drinks oat milk",None 
+BSS041,BL,F,White,NHL,32,65,169,28.1,mostly vegetarian,None 
+BSS042,AL ,F,Asian,NHL,28,58,106,22.2,"mostly vegetarian, no red meat, eats lots of fruits and fiber",None 
+BSS043,BU,F,Asian,NHL,27,64.5,146,24.7,"standard, balanced diet",husband/wife relationship with BSS051
+BSS044,AL ,F,White,NHL,33,63.5,163,28.4,"omnivore, low dairy intake",None 
+BSS045,AL ,F,White ,NHL,41,71.5,146.6,20.2,"gluten free, mostly dairy free",None 
+BSS046,BL,M,White,NHL,36,71,167,23.3,"little meat, avoids processed foods",None 
+BSS047,BU,M,Asian,NHL,27,67,145,22.7,mostly vegetarian,None 
+BSS048,AU,F,White ,NHL,60,66.5,143,22.7,"gluten free, dairy free",None 
+BSS049,AU,F,White,NHL,31,69,167.2,24.7,"lots of vegetables, little meat and dairy",None 
+BSS050,AU,F,White (Ashkanazi Jew),NHL,30,62,125.8,22.9,no pork or beef,None 
+BSS051,AU,M,White ,NHL,30,74.5,223,28.2,standard diet,husband/wife relationship with BSS043
+BSS052,BU,F,White,NHL,30,69,169,25,"vegetarian, occasional seafood ",None 
+BSS053,Withdrawl,,,,,,,,,None 
+BSS054,BU,M,White,NHL,24,67,152.8,23.9,"mostly vegetarian, high protein intake",None 
+BSS055,AL ,F,Black/African American,NHL,28,64,141.8,24.3,"balanced diet, no pork",None 
+BSS056,BL,F,White,declined to state,29,69,163.8,24.2,standard diet,None 
+BSS057,Withdrawl,,,,,,,,,None 
+BSS058,BU,F,White,NHL,26,67,176.6,27.7,"mostly vegetarian, occasionally eats meat",None 
+BSS059,BL,F,Asian,NHL,24,65,136,25,"Standard diet, rice based starches",None 
+BSS060,AL ,M,White,NHL,23,72,175.8,23.8,normal diet,None 
+BSS062,BU,F,Asian,NHL,28,65,129.6,21.6,omnivore,None 
+BSS063,BL,M,Decline to state,HL,46,66,174,28.1,normal diet,husband/wife relationship with BSS067
+BSS064,BL,F,More than one race,HL,28,60,132.6,25.8,balanced diet,None 
+BSS065,BU,M,White,NHL,22,72,159.6,21.6,heavy meats and vegetables,None 
+BSS066,BU,F,White,NHL,28,63.5,145,25.3,"normal diet, eats meat once a day",None 
+BSS067,AU,F,Other,HL,50,65.5,160,26.2,balanced diet,husband/wife relationship with BSS063
+BSS068,BL,M,White,NHL,30,72,200,27.1,"heavy meat eater, high protein diet",None 
+BSS069,AL ,F,White,NHL,28,71,166,23.1,"generally health diet, little dairy",None 
+BSS070,BU,F,White,NHL,53,63,128.8,22.8,"normal diet, omnivore",None 
+BSS071,AU,F,White,NHL,21,67,158,24.7,"no dietary restrictions, does not eat a lot of cruciferous vegetables",None 
+BSS072,BL,F,White,NHL,21,70,147.4,21.2,balanced diet,None 
+BSS073,AL ,M,Asian,NHL,26,70,168.6,24.2,"omnivore, more plant-based",None 
+BSS074,AU,M,White,NHL,18,70,149.6,21.5,standard diet,None 
+BSS075,AL ,F,White,NHL,34,64,135.2,23.2,"gluten free, vegetarian",None 
+BSS076,,,,,,,,,,None 
+BSS077,BL,F,White,NHL,20,68,133.6,20.4,"normal diet, less carbs",None 
+BSS078,AU,M,Asian,NHL,28,74,188,24.1,"normal diet, often only 2 meals per day",None 
+BSS079,,,,,,,,,,None 
+BSS080,BL,F,American Indian/Alaskan Native,NHL,22,64,159,27.3,"vegetable based diet, somtimes  chicken or fish",None 
+BSS081,AU,F,White,NHL,18,66,134,21.6,normal diet,None 
+BSS082,AL ,M,Asian,NHL,27,71,152,21.2,normal diet,None 
+BSS083,BU,M,White,NHL,19,68,136,20.7,pescatarian ,None 

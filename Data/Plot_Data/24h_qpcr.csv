@@ -1,0 +1,20 @@
+﻿treatment,HO1,NQO1
+Vehicle ctl (0.27% DMSO) -1,0.65,0.74
+Vehicle ctl (0.27% DMSO) -2,0.68,0.74
+Vehicle ctl (0.27% DMSO) -3,1.43,1.19
+Vehicle ctl (0.27% DMSO) -4,1.23,1.32
+SFN 15uM -2,3.20,2.29
+SFN 15uM -3,4.09,2.91
+SFN 15uM -4,4.13,2.17
+SFN-nitrile 15uM -1,0.57,0.50
+SFN-nitrile 15uM -2,0.98,0.76
+SFN-nitrile 15uM -3,1.36,0.72
+SFN-nitrile 15uM -4,1.47,0.97
+SFN-nitrile 45uM -1,1.53,1.12
+SFN-nitrile 45uM -2,0.97,0.78
+SFN-nitrile 45uM -3,0.58,0.82
+SFN-nitrile 45uM -4,1.08,0.71
+SFN-nitrile 135uM -1,0.97,0.59
+SFN-nitrile 135uM -2,1.06,0.90
+SFN-nitrile 135uM -3,1.78,1.04
+SFN-nitrile 135uM -4,1.56,1.15

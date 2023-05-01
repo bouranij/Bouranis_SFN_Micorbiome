@@ -1,0 +1,285 @@
+sample,subject_id,time,treatment,cohort,sex,race,ethnicity,age,height_in,weight_lb,bmi,diet,relation,sample_issue,diet_condensed
+BSS001_0h_S1,BSS001,0,AL,1,F,Asian,NHL,55,65,165,27.5,Standard diet,None,FALSE,Omnivore
+BSS001_24h_S2,BSS001,24,AL,1,F,Asian,NHL,55,65,165,27.5,Standard diet,None,FALSE,Omnivore
+BSS001_48h_S3,BSS001,48,AL,1,F,Asian,NHL,55,65,165,27.5,Standard diet,None,FALSE,Omnivore
+BSS001_72h_S4,BSS001,72,AL,1,F,Asian,NHL,55,65,165,27.5,Standard diet,None,FALSE,Omnivore
+BSS002_0h_S5,BSS002,0,AL,1,M,White,NHL,23,73,210,28,Standard healthy diet,None,FALSE,Omnivore
+BSS002_24h_S6,BSS002,24,AL,1,M,White,NHL,23,73,210,28,Standard healthy diet,None,FALSE,Omnivore
+BSS002_48h_S7,BSS002,48,AL,1,M,White,NHL,23,73,210,28,Standard healthy diet,None,FALSE,Omnivore
+BSS002_72h_S8,BSS002,72,AL,1,M,White,NHL,23,73,210,28,Standard healthy diet,None,FALSE,Omnivore
+BSS003_0h_S9,BSS003,0,BL,1,M,White,NHL,51,72,196,26.9,Omnivore,None,FALSE,Omnivore
+BSS003_24h_S10,BSS003,24,BL,1,M,White,NHL,51,72,196,26.9,Omnivore,None,FALSE,Omnivore
+BSS003_48h_S11,BSS003,48,BL,1,M,White,NHL,51,72,196,26.9,Omnivore,None,FALSE,Omnivore
+BSS003_72h_S12,BSS003,72,BL,1,M,White,NHL,51,72,196,26.9,Omnivore,None,FALSE,Omnivore
+BSS004_0h_S13,BSS004,0,AU,1,F,Asian,NHL,27,62,148,27.1,"Heavy carbs, meat eater, supposed to limit dairy, peanuts & tree nuts",None,FALSE,Omnivore
+BSS004_24h_S14,BSS004,24,AU,1,F,Asian,NHL,27,62,148,27.1,"Heavy carbs, meat eater, supposed to limit dairy, peanuts & tree nuts",None,FALSE,Omnivore
+BSS004_48h_S15,BSS004,48,AU,1,F,Asian,NHL,27,62,148,27.1,"Heavy carbs, meat eater, supposed to limit dairy, peanuts & tree nuts",None,FALSE,Omnivore
+BSS004_72h_S16,BSS004,72,AU,1,F,Asian,NHL,27,62,148,27.1,"Heavy carbs, meat eater, supposed to limit dairy, peanuts & tree nuts",None,FALSE,Omnivore
+BSS005_0h_S17,BSS005,0,BU,1,F,White,NHL,26,61,115,21.7,Standard healthy diet,None,FALSE,Omnivore
+BSS005_24h_S18,BSS005,24,BU,1,F,White,NHL,26,61,115,21.7,Standard healthy diet,None,FALSE,Omnivore
+BSS005_48h_S19,BSS005,48,BU,1,F,White,NHL,26,61,115,21.7,Standard healthy diet,None,FALSE,Omnivore
+BSS005_72h_S20,BSS005,72,BU,1,F,White,NHL,26,61,115,21.7,Standard healthy diet,None,FALSE,Omnivore
+BSS006_0h_S21,BSS006,0,BU,1,F,White,NHL,53,65,130,21.7,N/A,None,FALSE,Omnivore
+BSS006_24h_S22,BSS006,24,BU,1,F,White,NHL,53,65,130,21.7,N/A,None,FALSE,Omnivore
+BSS006_48h_S23,BSS006,48,BU,1,F,White,NHL,53,65,130,21.7,N/A,None,FALSE,Omnivore
+BSS006_72h_S24,BSS006,72,BU,1,F,White,NHL,53,65,130,21.7,N/A,None,FALSE,Omnivore
+BSS007_0h_S25,BSS007,0,BL,1,F,White,NHL,42,69,178,26.3,Mostly vegetatian (meat 1x/month),None,FALSE,Flexitarian
+BSS007_24h_S26,BSS007,24,BL,1,F,White,NHL,42,69,178,26.3,Mostly vegetatian (meat 1x/month),None,FALSE,Flexitarian
+BSS007_48h_S27,BSS007,48,BL,1,F,White,NHL,42,69,178,26.3,Mostly vegetatian (meat 1x/month),None,FALSE,Flexitarian
+BSS007_72h_S28,BSS007,72,BL,1,F,White,NHL,42,69,178,26.3,Mostly vegetatian (meat 1x/month),None,FALSE,Flexitarian
+BSS009_0h_S29,BSS009,0,BL,2,F,White,NHL,42,61,121,22.9,N/A,None,FALSE,Omnivore
+BSS009_24h_S30,BSS009,24,BL,2,F,White,NHL,42,61,121,22.9,N/A,None,FALSE,Omnivore
+BSS009_48h_S31,BSS009,48,BL,2,F,White,NHL,42,61,121,22.9,N/A,None,FALSE,Omnivore
+BSS009_72h_S32,BSS009,72,BL,2,F,White,NHL,42,61,121,22.9,N/A,None,FALSE,Omnivore
+BSS010_0h_S33,BSS010,0,AU,2,F,White,NHL,31,64,141,24.1,High Dairy,None,FALSE,Omnivore
+BSS010_24h_S34,BSS010,24,AU,2,F,White,NHL,31,64,141,24.1,High Dairy,None,FALSE,Omnivore
+BSS010_48h_S35,BSS010,48,AU,2,F,White,NHL,31,64,141,24.1,High Dairy,None,FALSE,Omnivore
+BSS010_72h_S36,BSS010,72,AU,2,F,White,NHL,31,64,141,24.1,High Dairy,None,FALSE,Omnivore
+BSS011_0h_S37,BSS011,0,AU,2,F,White,NHL,21,68.5,141,21.2,Pescetarian,None,FALSE,Pescetarian
+BSS011_24h_S38,BSS011,24,AU,2,F,White,NHL,21,68.5,141,21.2,Pescetarian,None,FALSE,Pescetarian
+BSS011_48h_S39,BSS011,48,AU,2,F,White,NHL,21,68.5,141,21.2,Pescetarian,None,FALSE,Pescetarian
+BSS011_72h_S40,BSS011,72,AU,2,F,White,NHL,21,68.5,141,21.2,Pescetarian,None,FALSE,Pescetarian
+BSS013_0h_S41,BSS013,0,BU,2,F,MTOR,NHL,41,67,176,27.6,Vegetarian,None,FALSE,Vegetarian
+BSS013_24h_S42,BSS013,24,BU,2,F,MTOR,NHL,41,67,176,27.6,Vegetarian,None,FALSE,Vegetarian
+BSS013_48h_S43,BSS013,48,BU,2,F,MTOR,NHL,41,67,176,27.6,Vegetarian,None,FALSE,Vegetarian
+BSS013_72h_S44,BSS013,72,BU,2,F,MTOR,NHL,41,67,176,27.6,Vegetarian,None,FALSE,Vegetarian
+BSS014_0h_S45,BSS014,0,AL,2,F,White,NHL,40,74,170,21.8,Average meat eater,None,FALSE,Omnivore
+BSS014_24h_S46,BSS014,24,AL,2,F,White,NHL,40,74,170,21.8,Average meat eater,None,FALSE,Omnivore
+BSS014_48h_S47,BSS014,48,AL,2,F,White,NHL,40,74,170,21.8,Average meat eater,None,FALSE,Omnivore
+BSS014_72h_S48,BSS014,72,AL,2,F,White,NHL,40,74,170,21.8,Average meat eater,None,FALSE,Omnivore
+BSS015_0h_S49,BSS015,0,BL,2,M,White,NHL,49,75,177,22.1,Standard diet,None,FALSE,Omnivore
+BSS015_24h_S50,BSS015,24,BL,2,M,White,NHL,49,75,177,22.1,Standard diet,None,FALSE,Omnivore
+BSS015_48h_S51,BSS015,48,BL,2,M,White,NHL,49,75,177,22.1,Standard diet,None,FALSE,Omnivore
+BSS015_72h_S52,BSS015,72,BL,2,M,White,NHL,49,75,177,22.1,Standard diet,None,FALSE,Omnivore
+BSS016_0h_S53,BSS016,0,AL,2,F,White,NHL,51,66,159,25.7,Vegetarian,None,FALSE,Vegetarian
+BSS016_24h_S54,BSS016,24,AL,2,F,White,NHL,51,66,159,25.7,Vegetarian,None,FALSE,Vegetarian
+BSS016_48h_S55,BSS016,48,AL,2,F,White,NHL,51,66,159,25.7,Vegetarian,None,FALSE,Vegetarian
+BSS016_72h_S56,BSS016,72,AL,2,F,White,NHL,51,66,159,25.7,Vegetarian,None,FALSE,Vegetarian
+BSS017_0h_S57,BSS017,0,BU,2,M,MTOR,NHL,28,68,149,22.7,Pescatarian,None,FALSE,Pescetarian
+BSS017_24h_S58,BSS017,24,BU,2,M,MTOR,NHL,28,68,149,22.7,Pescatarian,None,FALSE,Pescetarian
+BSS017_48h_S59,BSS017,48,BU,2,M,MTOR,NHL,28,68,149,22.7,Pescatarian,None,FALSE,Pescetarian
+BSS017_72h_S60,BSS017,72,BU,2,M,MTOR,NHL,28,68,149,22.7,Pescatarian,None,FALSE,Pescetarian
+BSS021_0h_S61,BSS021,0,BU,3,F,White,NHL,58,63,113,20,Pescatarian,None,FALSE,Pescetarian
+BSS021_24h_S62,BSS021,24,BU,3,F,White,NHL,58,63,113,20,Pescatarian,None,FALSE,Pescetarian
+BSS021_48h_S63,BSS021,48,BU,3,F,White,NHL,58,63,113,20,Pescatarian,None,FALSE,Pescetarian
+BSS021_72h_S64,BSS021,72,BU,3,F,White,NHL,58,63,113,20,Pescatarian,None,FALSE,Pescetarian
+BSS022_0h_S65,BSS022,0,AU,3,F,White,NHL,23,68,148,22.4,Gluten Free,None,FALSE,Gluten_Free
+BSS022_24h_S66,BSS022,24,AU,3,F,White,NHL,23,68,148,22.4,Gluten Free,None,FALSE,Gluten_Free
+BSS022_48h_S67,BSS022,48,AU,3,F,White,NHL,23,68,148,22.4,Gluten Free,None,FALSE,Gluten_Free
+BSS022_72h-1_S68,BSS022,72,AU,3,F,White,NHL,23,68,148,22.4,Gluten Free,None,TRUE,Gluten_Free
+BSS022_72h-2_S69,BSS022,72,AU,3,F,White,NHL,23,68,148,22.4,Gluten Free,None,TRUE,Gluten_Free
+BSS023_0h_S70,BSS023,0,BL,3,F,White,NHL,30,67,138,21.6,Low Meat,None,FALSE,Flexitarian
+BSS023_24h_S71,BSS023,24,BL,3,F,White,NHL,30,67,138,21.6,Low Meat,None,FALSE,Flexitarian
+BSS023_48h_S72,BSS023,48,BL,3,F,White,NHL,30,67,138,21.6,Low Meat,None,FALSE,Flexitarian
+BSS023_72h_S73,BSS023,72,BL,3,F,White,NHL,30,67,138,21.6,Low Meat,None,FALSE,Flexitarian
+BSS024_0h_S74,BSS024,0,BU,3,M,White,NHL,18,72,160,21.4,Standard diet,mother/son relationship BSS025 (mother),FALSE,Omnivore
+BSS024_24h_S75,BSS024,24,BU,3,M,White,NHL,18,72,160,21.4,Standard diet,mother/son relationship BSS025 (mother),FALSE,Omnivore
+BSS024_48h_S76,BSS024,48,BU,3,M,White,NHL,18,72,160,21.4,Standard diet,mother/son relationship BSS025 (mother),FALSE,Omnivore
+BSS024_72h_S77,BSS024,72,BU,3,M,White,NHL,18,72,160,21.4,Standard diet,mother/son relationship BSS025 (mother),FALSE,Omnivore
+BSS025_0h_S78,BSS025,0,AL,3,F,White,NHL,47,61,130,24.5,Low Carb,mother/son relationship BSS024 (son),FALSE,Omnivore
+BSS025_24h_S79,BSS025,24,AL,3,F,White,NHL,47,61,130,24.5,Low Carb,mother/son relationship BSS024 (son),FALSE,Omnivore
+BSS025_48h_S80,BSS025,48,AL,3,F,White,NHL,47,61,130,24.5,Low Carb,mother/son relationship BSS024 (son),FALSE,Omnivore
+BSS025_72h_S81,BSS025,72,AL,3,F,White,NHL,47,61,130,24.5,Low Carb,mother/son relationship BSS024 (son),FALSE,Omnivore
+BSS026_0h_S82,BSS026,0,AU,3,M,Asian,NHL,30,68,155,23.6,"No coffee, single meal but snacks often",None,FALSE,Omnivore
+BSS026_24h_S83,BSS026,24,AU,3,M,Asian,NHL,30,68,155,23.6,"No coffee, single meal but snacks often",None,FALSE,Omnivore
+BSS026_48h_S84,BSS026,48,AU,3,M,Asian,NHL,30,68,155,23.6,"No coffee, single meal but snacks often",None,FALSE,Omnivore
+BSS026_72h_S85,BSS026,72,AU,3,M,Asian,NHL,30,68,155,23.6,"No coffee, single meal but snacks often",None,FALSE,Omnivore
+BSS027_0h_S86,BSS027,0,AU,3,F,White,NHL,26,70,170,24.4,Allergic to pork,None,FALSE,Omnivore
+BSS027_24h_S87,BSS027,24,AU,3,F,White,NHL,26,70,170,24.4,Allergic to pork,None,FALSE,Omnivore
+BSS027_48h_S88,BSS027,48,AU,3,F,White,NHL,26,70,170,24.4,Allergic to pork,None,TRUE,Omnivore
+BSS027_72h_S89,BSS027,72,AU,3,F,White,NHL,26,70,170,24.4,Allergic to pork,None,FALSE,Omnivore
+BSS028_0h_S90,BSS028,0,AL,3,M,Decline,NHL,30,70,155.2,22.3,No beef,None,FALSE,Omnivore
+BSS028_24h_S91,BSS028,24,AL,3,M,Decline,NHL,30,70,155.2,22.3,No beef,None,FALSE,Omnivore
+BSS028_48h_S92,BSS028,48,AL,3,M,Decline,NHL,30,70,155.2,22.3,No beef,None,FALSE,Omnivore
+BSS028_72h_S93,BSS028,72,AL,3,M,Decline,NHL,30,70,155.2,22.3,No beef,None,FALSE,Omnivore
+BSS029_0h_S94,BSS029,0,BL,3,F,Asian,NHL,27,68,177,26.9,Standard diet,None,FALSE,Omnivore
+BSS029_24h_S95,BSS029,24,BL,3,F,Asian,NHL,27,68,177,26.9,Standard diet,None,FALSE,Omnivore
+BSS029_48h_S96,BSS029,48,BL,3,F,Asian,NHL,27,68,177,26.9,Standard diet,None,FALSE,Omnivore
+BSS029_72h_S97,BSS029,72,BL,3,F,Asian,NHL,27,68,177,26.9,Standard diet,None,FALSE,Omnivore
+BSS030_0h_S98,BSS030,0,BL,4,F,Other,HL,25,64,144.6,24.8,"Standard diet, little red meat",None,FALSE,Omnivore
+BSS030_24h_S99,BSS030,24,BL,4,F,Other,HL,25,64,144.6,24.8,"Standard diet, little red meat",None,FALSE,Omnivore
+BSS030_48h_S100,BSS030,48,BL,4,F,Other,HL,25,64,144.6,24.8,"Standard diet, little red meat",None,FALSE,Omnivore
+BSS030_72h_S101,BSS030,72,BL,4,F,Other,HL,25,64,144.6,24.8,"Standard diet, little red meat",None,FALSE,Omnivore
+BSS032_0h_S102,BSS032,0,BU,4,F,White,NHL,25,67.5,130,20.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS032_3h_S103,BSS032,3,BU,4,F,White,NHL,25,67.5,130,20.1,mostly vegetarian,None,TRUE,Flexitarian
+BSS032_24h_S104,BSS032,24,BU,4,F,White,NHL,25,67.5,130,20.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS032_48h_S105,BSS032,48,BU,4,F,White,NHL,25,67.5,130,20.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS032_72h_S106,BSS032,72,BU,4,F,White,NHL,25,67.5,130,20.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS035_0h_S107,BSS035,0,BL,4,M,Asian,NHL,28,68,159.6,24.3,"vegetarian, light dinners",None,FALSE,Vegetarian
+BSS035_24h_S108,BSS035,24,BL,4,M,Asian,NHL,28,68,159.6,24.3,"vegetarian, light dinners",None,FALSE,Vegetarian
+BSS035_48h_S109,BSS035,48,BL,4,M,Asian,NHL,28,68,159.6,24.3,"vegetarian, light dinners",None,FALSE,Vegetarian
+BSS035_72h_S110,BSS035,72,BL,4,M,Asian,NHL,28,68,159.6,24.3,"vegetarian, light dinners",None,FALSE,Vegetarian
+BSS036_0h_S111,BSS036,0,BL,4,F,White,NHL,29,65,167,27.8,omnivore,None,FALSE,Omnivore
+BSS036_24h_S112,BSS036,24,BL,4,F,White,NHL,29,65,167,27.8,omnivore,None,FALSE,Omnivore
+BSS036_48h_S113,BSS036,48,BL,4,F,White,NHL,29,65,167,27.8,omnivore,None,FALSE,Omnivore
+BSS036_72h_S114,BSS036,72,BL,4,F,White,NHL,29,65,167,27.8,omnivore,None,FALSE,Omnivore
+BSS037_0h_S115,BSS037,0,AU,4,M,Asian,NHL,34,67.5,180.2,27.8,not a heavy meat eater,None,FALSE,Flexitarian
+BSS037_24h_S116,BSS037,24,AU,4,M,Asian,NHL,34,67.5,180.2,27.8,not a heavy meat eater,None,FALSE,Flexitarian
+BSS037_48h_S117,BSS037,48,AU,4,M,Asian,NHL,34,67.5,180.2,27.8,not a heavy meat eater,None,FALSE,Flexitarian
+BSS037_72h_S118,BSS037,72,AU,4,M,Asian,NHL,34,67.5,180.2,27.8,not a heavy meat eater,None,FALSE,Flexitarian
+BSS038_0h_S119,BSS038,0,AL,4,F,White,NHL,32,69,164,24.2,omnivore,None,FALSE,Omnivore
+BSS038_24h_S120,BSS038,24,AL,4,F,White,NHL,32,69,164,24.2,omnivore,None,FALSE,Omnivore
+BSS038_48h_S121,BSS038,48,AL,4,F,White,NHL,32,69,164,24.2,omnivore,None,FALSE,Omnivore
+BSS038_72h_S122,BSS038,72,AL,4,F,White,NHL,32,69,164,24.2,omnivore,None,FALSE,Omnivore
+BSS039_0h_S123,BSS039,0,BU,4,F,White,NHL,56,68,165.8,25.2,"standard diet, intermittent fasting for 15-18hrs",None,FALSE,Omnivore
+BSS039_24h_S124,BSS039,24,BU,4,F,White,NHL,56,68,165.8,25.2,"standard diet, intermittent fasting for 15-18hrs",None,FALSE,Omnivore
+BSS039_48h_S125,BSS039,48,BU,4,F,White,NHL,56,68,165.8,25.2,"standard diet, intermittent fasting for 15-18hrs",None,FALSE,Omnivore
+BSS039_72h_S126,BSS039,72,BU,4,F,White,NHL,56,68,165.8,25.2,"standard diet, intermittent fasting for 15-18hrs",None,FALSE,Omnivore
+BSS040_0h_S127,BSS040,0,BU,4,F,Decline to state,HL,59,62.5,117.4,21.1,"low carb diet, drinks oat milk",None,TRUE,Omnivore
+BSS040_24h_S128,BSS040,24,BU,4,F,Decline to state,HL,59,62.5,117.4,21.1,"low carb diet, drinks oat milk",None,TRUE,Omnivore
+BSS040_48h_S129,BSS040,48,BU,4,F,Decline to state,HL,59,62.5,117.4,21.1,"low carb diet, drinks oat milk",None,FALSE,Omnivore
+BSS040_72h_S130,BSS040,72,BU,4,F,Decline to state,HL,59,62.5,117.4,21.1,"low carb diet, drinks oat milk",None,FALSE,Omnivore
+BSS041_0h_S131,BSS041,0,BL,5,F,White,NHL,32,65,169,28.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS041_24h_S132,BSS041,24,BL,5,F,White,NHL,32,65,169,28.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS041_48h_S133,BSS041,48,BL,5,F,White,NHL,32,65,169,28.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS041_72h_S134,BSS041,72,BL,5,F,White,NHL,32,65,169,28.1,mostly vegetarian,None,FALSE,Flexitarian
+BSS042_0h_S135,BSS042,0,AL,5,F,Asian,NHL,28,58,106,22.2,"mostly vegetarian, no red meat, eats lots of fruits and fiber",None,FALSE,Flexitarian
+BSS042_24h_S136,BSS042,24,AL,5,F,Asian,NHL,28,58,106,22.2,"mostly vegetarian, no red meat, eats lots of fruits and fiber",None,FALSE,Flexitarian
+BSS042_48h_S137,BSS042,48,AL,5,F,Asian,NHL,28,58,106,22.2,"mostly vegetarian, no red meat, eats lots of fruits and fiber",None,FALSE,Flexitarian
+BSS042_72h_S138,BSS042,72,AL,5,F,Asian,NHL,28,58,106,22.2,"mostly vegetarian, no red meat, eats lots of fruits and fiber",None,FALSE,Flexitarian
+BSS043_0h_S139,BSS043,0,BU,5,F,Asian,NHL,27,64.5,146,24.7,"standard, balanced diet",husband/wife relationship with BSS051,FALSE,Omnivore
+BSS043_24h_S140,BSS043,24,BU,5,F,Asian,NHL,27,64.5,146,24.7,"standard, balanced diet",husband/wife relationship with BSS051,FALSE,Omnivore
+BSS043_48h_S141,BSS043,48,BU,5,F,Asian,NHL,27,64.5,146,24.7,"standard, balanced diet",husband/wife relationship with BSS051,FALSE,Omnivore
+BSS043_72h_S142,BSS043,72,BU,5,F,Asian,NHL,27,64.5,146,24.7,"standard, balanced diet",husband/wife relationship with BSS051,FALSE,Omnivore
+BSS044_0h_S143,BSS044,0,AL,5,F,White,NHL,33,63.5,163,28.4,"omnivore, low dairy intake",None,FALSE,Omnivore
+BSS044_24h_S144,BSS044,24,AL,5,F,White,NHL,33,63.5,163,28.4,"omnivore, low dairy intake",None,FALSE,Omnivore
+BSS044_48h_S145,BSS044,48,AL,5,F,White,NHL,33,63.5,163,28.4,"omnivore, low dairy intake",None,FALSE,Omnivore
+BSS044_72h_S146,BSS044,72,AL,5,F,White,NHL,33,63.5,163,28.4,"omnivore, low dairy intake",None,FALSE,Omnivore
+BSS045_0h_S147,BSS045,0,AL,5,F,White,NHL,41,71.5,146.6,20.2,"gluten free, mostly dairy free",None,FALSE,Gluten_Free
+BSS045_24h_S148,BSS045,24,AL,5,F,White,NHL,41,71.5,146.6,20.2,"gluten free, mostly dairy free",None,FALSE,Gluten_Free
+BSS045_48h_S149,BSS045,48,AL,5,F,White,NHL,41,71.5,146.6,20.2,"gluten free, mostly dairy free",None,FALSE,Gluten_Free
+BSS045_72h_S150,BSS045,72,AL,5,F,White,NHL,41,71.5,146.6,20.2,"gluten free, mostly dairy free",None,FALSE,Gluten_Free
+BSS047_0h_S151,BSS047,0,BU,5,M,Asian,NHL,27,67,145,22.7,mostly vegetarian,None,FALSE,Vegetarian
+BSS047_24h_S152,BSS047,24,BU,5,M,Asian,NHL,27,67,145,22.7,mostly vegetarian,None,FALSE,Vegetarian
+BSS047_48h_S153,BSS047,48,BU,5,M,Asian,NHL,27,67,145,22.7,mostly vegetarian,None,FALSE,Vegetarian
+BSS047_72h_S154,BSS047,72,BU,5,M,Asian,NHL,27,67,145,22.7,mostly vegetarian,None,FALSE,Vegetarian
+BSS048_0h_S155,BSS048,0,AU,5,F,White,NHL,60,66.5,143,22.7,"gluten free, dairy free",None,FALSE,Gluten_Free
+BSS048_24h_S156,BSS048,24,AU,5,F,White,NHL,60,66.5,143,22.7,"gluten free, dairy free",None,FALSE,Gluten_Free
+BSS048_48h_S157,BSS048,48,AU,5,F,White,NHL,60,66.5,143,22.7,"gluten free, dairy free",None,FALSE,Gluten_Free
+BSS048_72h_S158,BSS048,72,AU,5,F,White,NHL,60,66.5,143,22.7,"gluten free, dairy free",None,FALSE,Gluten_Free
+BSS050_0h_S159,BSS050,0,AU,5,F,White (Ashkanazi Jew),NHL,30,62,125.8,22.9,no pork or beef,None,FALSE,Omnivore
+BSS050_24h_S160,BSS050,24,AU,5,F,White (Ashkanazi Jew),NHL,30,62,125.8,22.9,no pork or beef,None,FALSE,Omnivore
+BSS050_48h_S161,BSS050,48,AU,5,F,White (Ashkanazi Jew),NHL,30,62,125.8,22.9,no pork or beef,None,FALSE,Omnivore
+BSS050_72h_S162,BSS050,72,AU,5,F,White (Ashkanazi Jew),NHL,30,62,125.8,22.9,no pork or beef,None,FALSE,Omnivore
+BSS051_0h_S163,BSS051,0,AU,5,M,White,NHL,30,74.5,223,28.2,standard diet,husband/wife relationship with BSS043,FALSE,Omnivore
+BSS051_24h_S164,BSS051,24,AU,5,M,White,NHL,30,74.5,223,28.2,standard diet,husband/wife relationship with BSS043,FALSE,Omnivore
+BSS051_48h_S165,BSS051,48,AU,5,M,White,NHL,30,74.5,223,28.2,standard diet,husband/wife relationship with BSS043,FALSE,Omnivore
+BSS051_72h_S166,BSS051,72,AU,5,M,White,NHL,30,74.5,223,28.2,standard diet,husband/wife relationship with BSS043,FALSE,Omnivore
+BSS046_0h_S167,BSS046,0,BL,6,M,White,NHL,36,71,167,23.3,"little meat, avoids processed foods",None,FALSE,Flexitarian
+BSS046_3h_S168,BSS046,3,BL,6,M,White,NHL,36,71,167,23.3,"little meat, avoids processed foods",None,FALSE,Flexitarian
+BSS046_24h_S169,BSS046,24,BL,6,M,White,NHL,36,71,167,23.3,"little meat, avoids processed foods",None,FALSE,Flexitarian
+BSS046_48h_S170,BSS046,48,BL,6,M,White,NHL,36,71,167,23.3,"little meat, avoids processed foods",None,FALSE,Flexitarian
+BSS049_0h_S171,BSS049,0,AU,6,F,White,NHL,31,69,167.2,24.7,"lots of vegetables, little meat and dairy",None,FALSE,Flexitarian
+BSS049_24h_S172,BSS049,24,AU,6,F,White,NHL,31,69,167.2,24.7,"lots of vegetables, little meat and dairy",None,FALSE,Flexitarian
+BSS049_48h_S173,BSS049,48,AU,6,F,White,NHL,31,69,167.2,24.7,"lots of vegetables, little meat and dairy",None,FALSE,Flexitarian
+BSS049_72h_S174,BSS049,72,AU,6,F,White,NHL,31,69,167.2,24.7,"lots of vegetables, little meat and dairy",None,FALSE,Flexitarian
+BSS052_0h_S175,BSS052,0,BU,6,F,White,NHL,30,69,169,25,"vegetarian, occasional seafood",None,FALSE,Vegetarian
+BSS052_24h_S176,BSS052,24,BU,6,F,White,NHL,30,69,169,25,"vegetarian, occasional seafood",None,FALSE,Vegetarian
+BSS052_48h_S177,BSS052,48,BU,6,F,White,NHL,30,69,169,25,"vegetarian, occasional seafood",None,FALSE,Vegetarian
+BSS052_72h_S178,BSS052,72,BU,6,F,White,NHL,30,69,169,25,"vegetarian, occasional seafood",None,FALSE,Vegetarian
+BSS054_0h_S179,BSS054,0,BU,6,M,White,NHL,24,67,152.8,23.9,"mostly vegetarian, high protein intake",None,FALSE,High_Protein
+BSS054_24h_S180,BSS054,24,BU,6,M,White,NHL,24,67,152.8,23.9,"mostly vegetarian, high protein intake",None,FALSE,High_Protein
+BSS054_48h_S181,BSS054,48,BU,6,M,White,NHL,24,67,152.8,23.9,"mostly vegetarian, high protein intake",None,FALSE,High_Protein
+BSS054_72h_S182,BSS054,72,BU,6,M,White,NHL,24,67,152.8,23.9,"mostly vegetarian, high protein intake",None,FALSE,High_Protein
+BSS055_0h_S183,BSS055,0,AL,6,F,Black/African American,NHL,28,64,141.8,24.3,"balanced diet, no pork",None,FALSE,Omnivore
+BSS055_24h_S184,BSS055,24,AL,6,F,Black/African American,NHL,28,64,141.8,24.3,"balanced diet, no pork",None,FALSE,Omnivore
+BSS055_48h_S185,BSS055,48,AL,6,F,Black/African American,NHL,28,64,141.8,24.3,"balanced diet, no pork",None,FALSE,Omnivore
+BSS055_72h_S186,BSS055,72,AL,6,F,Black/African American,NHL,28,64,141.8,24.3,"balanced diet, no pork",None,FALSE,Omnivore
+BSS056_0h_S187,BSS056,0,BL,6,F,White,declined to state,29,69,163.8,24.2,standard diet,None,FALSE,Omnivore
+BSS056_24h_S188,BSS056,24,BL,6,F,White,declined to state,29,69,163.8,24.2,standard diet,None,FALSE,Omnivore
+BSS056_48h_S189,BSS056,48,BL,6,F,White,declined to state,29,69,163.8,24.2,standard diet,None,FALSE,Omnivore
+BSS056_72h_S190,BSS056,72,BL,6,F,White,declined to state,29,69,163.8,24.2,standard diet,None,FALSE,Omnivore
+BSS058_0h_S191,BSS058,0,BU,6,F,White,NHL,26,67,176.6,27.7,"mostly vegetarian, occasionally eats meat",None,FALSE,Flexitarian
+BSS058_24h_S192,BSS058,24,BU,6,F,White,NHL,26,67,176.6,27.7,"mostly vegetarian, occasionally eats meat",None,FALSE,Flexitarian
+BSS058_48h_S193,BSS058,48,BU,6,F,White,NHL,26,67,176.6,27.7,"mostly vegetarian, occasionally eats meat",None,FALSE,Flexitarian
+BSS058_72h_S194,BSS058,72,BU,6,F,White,NHL,26,67,176.6,27.7,"mostly vegetarian, occasionally eats meat",None,FALSE,Flexitarian
+BSS059_0h_S195,BSS059,0,BL,6,F,Asian,NHL,24,65,136,25,"Standard diet, rice based starches",None,FALSE,Omnivore
+BSS059_24h_S196,BSS059,24,BL,6,F,Asian,NHL,24,65,136,25,"Standard diet, rice based starches",None,FALSE,Omnivore
+BSS059_48h_S197,BSS059,48,BL,6,F,Asian,NHL,24,65,136,25,"Standard diet, rice based starches",None,FALSE,Omnivore
+BSS059_72h_S198,BSS059,72,BL,6,F,Asian,NHL,24,65,136,25,"Standard diet, rice based starches",None,FALSE,Omnivore
+BSS060_0h_S199,BSS060,0,AL,6,M,White,NHL,23,72,175.8,23.8,normal diet,None,FALSE,Omnivore
+BSS060_24h_S200,BSS060,24,AL,6,M,White,NHL,23,72,175.8,23.8,normal diet,None,FALSE,Omnivore
+BSS060_48h_S201,BSS060,48,AL,6,M,White,NHL,23,72,175.8,23.8,normal diet,None,FALSE,Omnivore
+BSS060_72h_S202,BSS060,72,AL,6,M,White,NHL,23,72,175.8,23.8,normal diet,None,FALSE,Omnivore
+BSS062_0h_S203,BSS062,0,BU,7,F,Asian,NHL,28,65,129.6,21.6,omnivore,None,FALSE,Omnivore
+BSS062_24h_S204,BSS062,24,BU,7,F,Asian,NHL,28,65,129.6,21.6,omnivore,None,FALSE,Omnivore
+BSS062_48h_S205,BSS062,48,BU,7,F,Asian,NHL,28,65,129.6,21.6,omnivore,None,FALSE,Omnivore
+BSS062_72h_S206,BSS062,72,BU,7,F,Asian,NHL,28,65,129.6,21.6,omnivore,None,FALSE,Omnivore
+BSS063_0h_S207,BSS063,0,BL,7,M,Decline to state,HL,46,66,174,28.1,normal diet,husband/wife relationship with BSS067,FALSE,Omnivore
+BSS063_24h_S208,BSS063,24,BL,7,M,Decline to state,HL,46,66,174,28.1,normal diet,husband/wife relationship with BSS067,FALSE,Omnivore
+BSS063_48h_S209,BSS063,48,BL,7,M,Decline to state,HL,46,66,174,28.1,normal diet,husband/wife relationship with BSS067,FALSE,Omnivore
+BSS063_72h_S210,BSS063,72,BL,7,M,Decline to state,HL,46,66,174,28.1,normal diet,husband/wife relationship with BSS067,FALSE,Omnivore
+BSS064_0h_S211,BSS064,0,BL,7,F,More than one race,HL,28,60,132.6,25.8,balanced diet,None,FALSE,Omnivore
+BSS064_24h_S212,BSS064,24,BL,7,F,More than one race,HL,28,60,132.6,25.8,balanced diet,None,FALSE,Omnivore
+BSS064_48h_S213,BSS064,48,BL,7,F,More than one race,HL,28,60,132.6,25.8,balanced diet,None,FALSE,Omnivore
+BSS064_72h_S214,BSS064,72,BL,7,F,More than one race,HL,28,60,132.6,25.8,balanced diet,None,FALSE,Omnivore
+BSS065_0h_S215,BSS065,0,BU,7,M,White,NHL,22,72,159.6,21.6,heavy meats and vegetables,None,FALSE,Omnivore
+BSS065_24h_S216,BSS065,24,BU,7,M,White,NHL,22,72,159.6,21.6,heavy meats and vegetables,None,FALSE,Omnivore
+BSS065_48h_S217,BSS065,48,BU,7,M,White,NHL,22,72,159.6,21.6,heavy meats and vegetables,None,FALSE,Omnivore
+BSS065_72h_S218,BSS065,72,BU,7,M,White,NHL,22,72,159.6,21.6,heavy meats and vegetables,None,FALSE,Omnivore
+BSS066_0h_S219,BSS066,0,BU,7,F,White,NHL,28,63.5,145,25.3,"normal diet, eats meat once a day",None,FALSE,Omnivore
+BSS066_24h_S220,BSS066,24,BU,7,F,White,NHL,28,63.5,145,25.3,"normal diet, eats meat once a day",None,FALSE,Omnivore
+BSS066_48h_S221,BSS066,48,BU,7,F,White,NHL,28,63.5,145,25.3,"normal diet, eats meat once a day",None,FALSE,Omnivore
+BSS066_72h_S222,BSS066,72,BU,7,F,White,NHL,28,63.5,145,25.3,"normal diet, eats meat once a day",None,FALSE,Omnivore
+BSS067_0h_S223,BSS067,0,AU,7,F,Other,HL,50,65.5,160,26.2,balanced diet,husband/wife relationship with BSS063,FALSE,Omnivore
+BSS067_24h_S224,BSS067,24,AU,7,F,Other,HL,50,65.5,160,26.2,balanced diet,husband/wife relationship with BSS063,TRUE,Omnivore
+BSS067_48h-1_S225,BSS067,48,AU,7,F,Other,HL,50,65.5,160,26.2,balanced diet,husband/wife relationship with BSS063,TRUE,Omnivore
+BSS067_48h-2_S226,BSS067,48,AU,7,F,Other,HL,50,65.5,160,26.2,balanced diet,husband/wife relationship with BSS063,FALSE,Omnivore
+BSS067_72h_S227,BSS067,72,AU,7,F,Other,HL,50,65.5,160,26.2,balanced diet,husband/wife relationship with BSS063,FALSE,Omnivore
+BSS068_0h_S228,BSS068,0,BL,7,M,White,NHL,30,72,200,27.1,"heavy meat eater, high protein diet",None,FALSE,High_Protein
+BSS068_24h_S229,BSS068,24,BL,7,M,White,NHL,30,72,200,27.1,"heavy meat eater, high protein diet",None,FALSE,High_Protein
+BSS068_48h_S230,BSS068,48,BL,7,M,White,NHL,30,72,200,27.1,"heavy meat eater, high protein diet",None,FALSE,High_Protein
+BSS068_72h_S231,BSS068,72,BL,7,M,White,NHL,30,72,200,27.1,"heavy meat eater, high protein diet",None,FALSE,High_Protein
+BSS069_0h_S232,BSS069,0,AL,7,F,White,NHL,28,71,166,23.1,"generally health diet, little dairy",None,FALSE,Omnivore
+BSS069_24h_S233,BSS069,24,AL,7,F,White,NHL,28,71,166,23.1,"generally health diet, little dairy",None,FALSE,Omnivore
+BSS069_48h_S234,BSS069,48,AL,7,F,White,NHL,28,71,166,23.1,"generally health diet, little dairy",None,FALSE,Omnivore
+BSS069_72h_S235,BSS069,72,AL,7,F,White,NHL,28,71,166,23.1,"generally health diet, little dairy",None,FALSE,Omnivore
+BSS070_0h_S236,BSS070,0,BU,7,F,White,NHL,53,63,128.8,22.8,"normal diet, omnivore",None,FALSE,Omnivore
+BSS070_24h_S237,BSS070,24,BU,7,F,White,NHL,53,63,128.8,22.8,"normal diet, omnivore",None,FALSE,Omnivore
+BSS070_48h_S238,BSS070,48,BU,7,F,White,NHL,53,63,128.8,22.8,"normal diet, omnivore",None,FALSE,Omnivore
+BSS070_72h_S239,BSS070,72,BU,7,F,White,NHL,53,63,128.8,22.8,"normal diet, omnivore",None,FALSE,Omnivore
+BSS072_0h_S240,BSS072,0,BL,7,F,White,NHL,21,70,147.4,21.2,balanced diet,None,FALSE,Omnivore
+BSS072_24h_S241,BSS072,24,BL,7,F,White,NHL,21,70,147.4,21.2,balanced diet,None,FALSE,Omnivore
+BSS072_48h_S242,BSS072,48,BL,7,F,White,NHL,21,70,147.4,21.2,balanced diet,None,FALSE,Omnivore
+BSS072_72h_S243,BSS072,72,BL,7,F,White,NHL,21,70,147.4,21.2,balanced diet,None,FALSE,Omnivore
+BSS071_0h_S244,BSS071,0,AU,8,F,White,NHL,21,67,158,24.7,"no dietary restrictions, does not eat a lot of cruciferous vegetables",None,FALSE,Omnivore
+BSS071_24h_S245,BSS071,24,AU,8,F,White,NHL,21,67,158,24.7,"no dietary restrictions, does not eat a lot of cruciferous vegetables",None,FALSE,Omnivore
+BSS071_48h_S246,BSS071,48,AU,8,F,White,NHL,21,67,158,24.7,"no dietary restrictions, does not eat a lot of cruciferous vegetables",None,FALSE,Omnivore
+BSS071_72h_S247,BSS071,72,AU,8,F,White,NHL,21,67,158,24.7,"no dietary restrictions, does not eat a lot of cruciferous vegetables",None,FALSE,Omnivore
+BSS073_0h_S248,BSS073,0,AL,8,M,Asian,NHL,26,70,168.6,24.2,"omnivore, more plant-based",None,FALSE,Omnivore
+BSS073_24h_S249,BSS073,24,AL,8,M,Asian,NHL,26,70,168.6,24.2,"omnivore, more plant-based",None,FALSE,Omnivore
+BSS073_48h_S250,BSS073,48,AL,8,M,Asian,NHL,26,70,168.6,24.2,"omnivore, more plant-based",None,FALSE,Omnivore
+BSS073_72h_S251,BSS073,72,AL,8,M,Asian,NHL,26,70,168.6,24.2,"omnivore, more plant-based",None,FALSE,Omnivore
+BSS074_0h_S252,BSS074,0,AU,8,M,White,NHL,18,70,149.6,21.5,standard diet,None,FALSE,Omnivore
+BSS074_24h_S253,BSS074,24,AU,8,M,White,NHL,18,70,149.6,21.5,standard diet,None,FALSE,Omnivore
+BSS074_48h_S254,BSS074,48,AU,8,M,White,NHL,18,70,149.6,21.5,standard diet,None,FALSE,Omnivore
+BSS074_72h_S255,BSS074,72,AU,8,M,White,NHL,18,70,149.6,21.5,standard diet,None,FALSE,Omnivore
+BSS075_0h_S256,BSS075,0,AL,8,F,White,NHL,34,64,135.2,23.2,"gluten free, vegetarian",None,FALSE,Gluten_Free
+BSS075_24h_S257,BSS075,24,AL,8,F,White,NHL,34,64,135.2,23.2,"gluten free, vegetarian",None,FALSE,Gluten_Free
+BSS075_48h_S258,BSS075,48,AL,8,F,White,NHL,34,64,135.2,23.2,"gluten free, vegetarian",None,FALSE,Gluten_Free
+BSS075_72h_S259,BSS075,72,AL,8,F,White,NHL,34,64,135.2,23.2,"gluten free, vegetarian",None,FALSE,Gluten_Free
+BSS077_0h_S260,BSS077,0,BL,8,F,White,NHL,20,68,133.6,20.4,"normal diet, less carbs",None,FALSE,Omnivore
+BSS077_24h_S261,BSS077,24,BL,8,F,White,NHL,20,68,133.6,20.4,"normal diet, less carbs",None,FALSE,Omnivore
+BSS077_48h_S262,BSS077,48,BL,8,F,White,NHL,20,68,133.6,20.4,"normal diet, less carbs",None,FALSE,Omnivore
+BSS077_72h_S263,BSS077,72,BL,8,F,White,NHL,20,68,133.6,20.4,"normal diet, less carbs",None,FALSE,Omnivore
+BSS078_0h_S264,BSS078,0,AU,8,M,Asian,NHL,28,74,188,24.1,"normal diet, often only 2 meals per day",None,FALSE,Omnivore
+BSS078_24h_S265,BSS078,24,AU,8,M,Asian,NHL,28,74,188,24.1,"normal diet, often only 2 meals per day",None,FALSE,Omnivore
+BSS078_48h_S266,BSS078,48,AU,8,M,Asian,NHL,28,74,188,24.1,"normal diet, often only 2 meals per day",None,FALSE,Omnivore
+BSS078_72h_S267,BSS078,72,AU,8,M,Asian,NHL,28,74,188,24.1,"normal diet, often only 2 meals per day",None,FALSE,Omnivore
+BSS080_0h_S268,BSS080,0,BL,8,F,American Indian/Alaskan Native,NHL,22,64,159,27.3,"vegetable based diet, somtimes  chicken or fish",None,FALSE,Flexitarian
+BSS080_24h_S269,BSS080,24,BL,8,F,American Indian/Alaskan Native,NHL,22,64,159,27.3,"vegetable based diet, somtimes  chicken or fish",None,FALSE,Flexitarian
+BSS080_48h_S270,BSS080,48,BL,8,F,American Indian/Alaskan Native,NHL,22,64,159,27.3,"vegetable based diet, somtimes  chicken or fish",None,FALSE,Flexitarian
+BSS080_72h_S271,BSS080,72,BL,8,F,American Indian/Alaskan Native,NHL,22,64,159,27.3,"vegetable based diet, somtimes  chicken or fish",None,FALSE,Flexitarian
+BSS081_0h_S272,BSS081,0,AU,8,F,White,NHL,18,66,134,21.6,normal diet,None,FALSE,Omnivore
+BSS081_24h_S273,BSS081,24,AU,8,F,White,NHL,18,66,134,21.6,normal diet,None,FALSE,Omnivore
+BSS081_48h_S274,BSS081,48,AU,8,F,White,NHL,18,66,134,21.6,normal diet,None,FALSE,Omnivore
+BSS081_72h_S275,BSS081,72,AU,8,F,White,NHL,18,66,134,21.6,normal diet,None,FALSE,Omnivore
+BSS082_0h_S276,BSS082,0,AL,8,M,Asian,NHL,27,71,152,21.2,normal diet,None,FALSE,Omnivore
+BSS082_24h_S277,BSS082,24,AL,8,M,Asian,NHL,27,71,152,21.2,normal diet,None,FALSE,Omnivore
+BSS082_48h_S278,BSS082,48,AL,8,M,Asian,NHL,27,71,152,21.2,normal diet,None,FALSE,Omnivore
+BSS082_72h_S279,BSS082,72,AL,8,M,Asian,NHL,27,71,152,21.2,normal diet,None,FALSE,Omnivore
+BSS083_0h_S280,BSS083,0,BU,8,M,White,NHL,19,68,136,20.7,pescatarian,None,FALSE,Pescetarian
+BSS083_24h_S281,BSS083,24,BU,8,M,White,NHL,19,68,136,20.7,pescatarian,None,FALSE,Pescetarian
+BSS083_48h_S282,BSS083,48,BU,8,M,White,NHL,19,68,136,20.7,pescatarian,None,FALSE,Pescetarian
+BSS083_72h-1_S283,BSS083,72,BU,8,M,White,NHL,19,68,136,20.7,pescatarian,None,TRUE,Pescetarian
+BSS083_72h-2_S284,BSS083,72,BU,8,M,White,NHL,19,68,136,20.7,pescatarian,None,FALSE,Pescetarian
