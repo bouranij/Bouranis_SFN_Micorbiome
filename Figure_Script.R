@@ -762,53 +762,8 @@ hoplot
 
 cowplot::plot_grid(hplot, nplot, hoplot, nrow = 3, labels = c('A', 'B', 'C'), label_size = 40)
 
-# Figure S1 ---------------------------------------------------------------
-
-#Broccoli vs Alfalfa - 24hr
-ps_ab <- ps_counts %>%
-  #subset_samples(treatment %in% c('BL', 'BU', 'AL', 'AU')) %>%
-  subset_samples(time %in% c(24)) %>%
-  subset_samples(cohort %in% 3:8)
-ordBC_ab <- ordinate(ps_ab, method = 'PCoA', distance = 'jaccard')
-vegplot <- plot_ordination(ps_ab, ordBC_ab, color = 'veg') +
-  geom_point(size = 6) +
-  #ggtitle('Broccoli vs Alfalfa - 24hr') +
-  theme_cowplot() +
-  scale_color_manual(values = c('#D90368', '#04A777'),
-                    labels = c('Alfalfa', 'Broccoli'),
-                    name = 'Vegetable \n Type') +
-  theme(axis.text.y = element_text(size = 35),
-        axis.text.x = element_text(size = 35),
-        axis.title.y = element_text(size = 40),
-        axis.title.x = element_text(size = 40),
-        legend.text = element_text(size = 34), 
-        legend.title = element_text(size = 38), 
-        legend.key.size = unit(22, 'mm'))
-
-ps_ball <- ps_counts %>%
-  subset_samples(veg %in% c('broc')) %>%
-  subset_samples(time %in% c(0,24, 48, 72)) %>%
-  subset_samples(cohort %in% 3:8)
-ordBC_ball <- ordinate(ps_ball, method = 'PCoA', distance = 'jaccard')
-timeplot <- plot_ordination(ps_ball, ordBC_ball, color = 'time') +
-  geom_point(size = 6) +
-  #ggtitle('Broccoli - 0hr vs 24hr') +
-  theme_cowplot() +
-  scale_color_manual(values = c('#2176FF', '#F79824', '#51CB20', '#730071'),
-                    labels = c('0 Hour', '24 Hour', '48 Hour', '72 Hour'),
-                    name = 'Time Post \n Consumption') +
-  theme(axis.text.y = element_text(size = 35),
-        axis.text.x = element_text(size = 35),
-        axis.title.y = element_text(size = 40),
-        axis.title.x = element_text(size = 40),
-        legend.text = element_text(size = 34), 
-        legend.title = element_text(size = 38), 
-        legend.key.size = unit(22, 'mm'))
-
-cowplot::plot_grid(vegplot, timeplot, ncol = 2, labels = c('A', 'B'), label_size = 40)
 
 # Figure 4 ----------------------------------------------------------------
-library(mixOmics)
 
 alltax <- data.frame(tax_table(ps_spls)) %>%
   rownames_to_column('ASV') %>%
@@ -827,24 +782,6 @@ ASVtest <- micro_raw %>%
 
 diettest <- diet_raw %>%
   dplyr::select(all_of(final_diet)) 
-
-data.frame(cor(ASVtest, diettest, method = 'sp')) %>%
-  rownames_to_column('ASV') %>% 
-  left_join(alltax) %>%
-  column_to_rownames('spasv') %>%
-  dplyr::select(where(is.numeric)) %>%
-  pheatmap::pheatmap(display_numbers = F, fontsize_col = 40, fontsize_row = 35, legend = F)
-
-meh <- data.frame(cor(ASVtest, diettest, method = 'sp')) %>%
-  rownames_to_column('ASV') %>% 
-  left_join(alltax) %>%
-  column_to_rownames('spasv') %>%
-  dplyr::select(where(is.numeric)) %>%
-  pheatmap::pheatmap(display_numbers = F, fontsize_col = 40, fontsize_row = 35, legend = T)
-
-ggdraw(meh$gtable$grob[[6]])
-
-# Figure 5 ----------------------------------------------------------------
 
 #ASV to SFN
 data.frame(cor(ASVtest, SFN_raw, method = 'sp')) %>%
@@ -866,29 +803,8 @@ ah2 <- data.frame(cor(ASVtest, SFN_raw, method = 'sp')) %>%
 ggdraw(ah2$gtable$grob[[6]])
 
 
-# Figure S2 ---------------------------------------------------------------
+# Figure S1 ---------------------------------------------------------------
 
-cloTest <- micro_raw %>%
-  dplyr::select(ASV125, ASV220, ASV276) 
-
-data.frame(cor(cloTest, SFN_raw, method = 'sp')) %>%
-  rownames_to_column('ASV') %>% 
-  left_join(alltax) %>%
-  column_to_rownames('spasv') %>%
-  dplyr::select(where(is.numeric)) %>%
-  pheatmap::pheatmap(display_numbers = F, labels_col = c('Total DTCs', 'SFN-NIT', 'All Metabolites'), angle_col = 270,
-                     fontsize_row = 35, fontsize_col = 40, legend = F)
-
-ah3 <- data.frame(cor(cloTest, SFN_raw, method = 'sp')) %>%
-  rownames_to_column('ASV') %>% 
-  left_join(alltax) %>%
-  column_to_rownames('spasv') %>%
-  dplyr::select(where(is.numeric)) %>%
-  pheatmap::pheatmap()
-
-ggdraw(ah3$gtable$grob[[6]])
-
-# Rarefaction Curves ------------------------------------------------------
 library(vegan)
 dps <- ps_counts
 
@@ -946,7 +862,137 @@ ggplot(uh, aes(x=raw.read, y=clase, color = veg, group = Sample))+
         legend.title = element_text(size = 38), 
         legend.key.size = unit(22, 'mm')) 
 
+# Figure S2 ---------------------------------------------------------------
 
+#Broccoli vs Alfalfa - 24hr
+ps_ab <- ps_counts %>%
+  #subset_samples(treatment %in% c('BL', 'BU', 'AL', 'AU')) %>%
+  subset_samples(time %in% c(24)) %>%
+  subset_samples(cohort %in% 3:8)
+ordBC_ab <- ordinate(ps_ab, method = 'PCoA', distance = 'jaccard')
+vegplot <- plot_ordination(ps_ab, ordBC_ab, color = 'veg') +
+  geom_point(size = 6) +
+  #ggtitle('Broccoli vs Alfalfa - 24hr') +
+  theme_cowplot() +
+  scale_color_manual(values = c('#D90368', '#04A777'),
+                    labels = c('Alfalfa', 'Broccoli'),
+                    name = 'Vegetable \n Type') +
+  theme(axis.text.y = element_text(size = 35),
+        axis.text.x = element_text(size = 35),
+        axis.title.y = element_text(size = 40),
+        axis.title.x = element_text(size = 40),
+        legend.text = element_text(size = 34), 
+        legend.title = element_text(size = 38), 
+        legend.key.size = unit(22, 'mm'))
+
+ps_ball <- ps_counts %>%
+  subset_samples(veg %in% c('broc')) %>%
+  subset_samples(time %in% c(0,24, 48, 72)) %>%
+  subset_samples(cohort %in% 3:8)
+ordBC_ball <- ordinate(ps_ball, method = 'PCoA', distance = 'jaccard')
+timeplot <- plot_ordination(ps_ball, ordBC_ball, color = 'time') +
+  geom_point(size = 6) +
+  #ggtitle('Broccoli - 0hr vs 24hr') +
+  theme_cowplot() +
+  scale_color_manual(values = c('#2176FF', '#F79824', '#51CB20', '#730071'),
+                    labels = c('0 Hour', '24 Hour', '48 Hour', '72 Hour'),
+                    name = 'Time Post \n Consumption') +
+  theme(axis.text.y = element_text(size = 35),
+        axis.text.x = element_text(size = 35),
+        axis.title.y = element_text(size = 40),
+        axis.title.x = element_text(size = 40),
+        legend.text = element_text(size = 34), 
+        legend.title = element_text(size = 38), 
+        legend.key.size = unit(22, 'mm'))
+
+cowplot::plot_grid(vegplot, timeplot, ncol = 2, labels = c('A', 'B'), label_size = 40)
+
+
+
+# Figure S3 ---------------------------------------------------------------
+
+
+data.frame(cor(ASVtest, diettest, method = 'sp')) %>%
+  rownames_to_column('ASV') %>% 
+  left_join(alltax) %>%
+  column_to_rownames('spasv') %>%
+  dplyr::select(where(is.numeric)) %>%
+  pheatmap::pheatmap(display_numbers = F, fontsize_col = 40, fontsize_row = 35, legend = F)
+
+meh <- data.frame(cor(ASVtest, diettest, method = 'sp')) %>%
+  rownames_to_column('ASV') %>% 
+  left_join(alltax) %>%
+  column_to_rownames('spasv') %>%
+  dplyr::select(where(is.numeric)) %>%
+  pheatmap::pheatmap(display_numbers = F, fontsize_col = 40, fontsize_row = 35, legend = T)
+
+ggdraw(meh$gtable$grob[[6]])
+
+# Figure S4 ---------------------------------------------------------------
+
+cloTest <- micro_raw %>%
+  dplyr::select(ASV125, ASV220, ASV276) 
+
+data.frame(cor(cloTest, SFN_raw, method = 'sp')) %>%
+  rownames_to_column('ASV') %>% 
+  left_join(alltax) %>%
+  column_to_rownames('spasv') %>%
+  dplyr::select(where(is.numeric)) %>%
+  pheatmap::pheatmap(display_numbers = F, labels_col = c('Total DTCs', 'SFN-NIT', 'All Metabolites'), angle_col = 270,
+                     fontsize_row = 35, fontsize_col = 40, legend = F)
+
+ah3 <- data.frame(cor(cloTest, SFN_raw, method = 'sp')) %>%
+  rownames_to_column('ASV') %>% 
+  left_join(alltax) %>%
+  column_to_rownames('spasv') %>%
+  dplyr::select(where(is.numeric)) %>%
+  pheatmap::pheatmap()
+
+ggdraw(ah3$gtable$grob[[6]])
+
+
+# Figure S5 ---------------------------------------------------------------
+
+
+ASV_SFN <- cbind(ASVtest, SFN_raw)
+
+makeCorPlot <- function(df, x, y, xlab = NULL){
+  xOut <- df[,x]
+  yOut <- df[,y]
+  fr <- formula(paste0(quo_name(y), '~', quo_name(x)))
+  temp_lm <- coef(lm(fr, df))
+  temp_cor <- round(cor(xOut, yOut, method = 'sp'), 2)
+  plot <- ggplot(df, aes(x = .data[[x]], y = .data[[y]], color = .data[[y]])) +
+    geom_point(size = 3) +
+    geom_abline(intercept = temp_lm[1], slope = temp_lm[2]) +
+    scale_color_gradient(high = 'green', low = 'blue', 
+                         name = switch(y, 'Tot_SFN' = 'All Metabolites \n (µMol)', 'Tot_DTC' = 'Total DTCs \n (µMol)', 'Tot_NIT' = 'SFN-NIT \n (µMol)')) +
+    cowplot::theme_cowplot() +
+    ylab(switch(y, 'Tot_SFN' = 'All Metabolites (µMol)', 'Tot_DTC' = 'Total DTCs (µMol)', 'Tot_NIT' = 'SFN-NIT (µMol)')) +
+    xlab(ifelse(is.null(xlab), x, xlab))
+  return(plot)
+}
+
+
+## Roseburia ASV112 --------------------------------------------------------
+roseplot <- makeCorPlot(ASV_SFN, 'ASV112', 'Tot_SFN', xlab = 'Unannotated Roseburia (ASV112)')
+
+## Dorea ASV28 -------------------------------------------------------------
+doreaplot <- makeCorPlot(ASV_SFN, 'ASV28', 'Tot_SFN', xlab = 'Dorea longicatena')
+
+## Alistipes ASV313 --------------------------------------------------------
+aliplot <- makeCorPlot(ASV_SFN, 'ASV313', 'Tot_DTC', xlab = 'Unannotated Alistipes (ASV313)')
+
+## Blautia ASV145 ----------------------------------------------------------
+blautiaplot <- makeCorPlot(ASV_SFN, 'ASV145', 'Tot_SFN', xlab = 'Unannotated Blautia (ASV145)')
+
+## Bifidobacterium ASV247 --------------------------------------------------
+bifidoplot <- makeCorPlot(ASV_SFN, 'ASV247', 'Tot_NIT', xlab = 'Unannotated Bifidobacterium (ASV247)')
+
+## Ruminococcus ASV527 -----------------------------------------------------
+ruminoplot <- makeCorPlot(ASV_SFN, 'ASV527', 'Tot_NIT', xlab = 'Unannotated Ruminococcus \n Torques Group (ASV527)')
+
+cowplot::plot_grid(roseplot, doreaplot, blautiaplot, bifidoplot, ruminoplot, aliplot, labels = c(LETTERS[1:6]))
 
 
 
